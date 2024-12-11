@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="631.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.infoController">
+   <children>
+      <TableView fx:id="infoTableView" prefHeight="400.0" prefWidth="631.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+            <TableColumn fx:id="maasColumn" maxWidth="100.0" prefWidth="100.0" text="MAAŞ" />
+          <TableColumn fx:id="isimColumn" maxWidth="100.0" prefWidth="100.0" text="İSİM" />
+          <TableColumn fx:id="soyisimColumn" maxWidth="75.0" prefWidth="75.0" text="SOYİSİM" />
+            <TableColumn fx:id="pozisyonColumn" maxWidth="100.0" prefWidth="100.0" text="POZİSYON" />
+            <TableColumn fx:id="yasColumn" maxWidth="40.0" prefWidth="40.0" text="YAŞ" />
+            <TableColumn fx:id="terfiColumn" prefWidth="215.0" text="TERFİ BİLGİLERİ" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
